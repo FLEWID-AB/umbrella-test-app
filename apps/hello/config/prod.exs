@@ -21,6 +21,18 @@ config :hello, HelloWeb.Endpoint,
 # Do not print debug messages in production
 config :logger, level: :info
 
+config :hello, HelloWeb.Endpoint,
+  secret_key_base: "jDvnXz6MmcbZbxzLn7mSIhdlzEQXdx0xqnyhmdNIrWQPAWwvVZHxAyc/is0y82UB"
+
+# Configure your database
+config :hello, Hello.Repo,
+  adapter: Ecto.Adapters.Postgres,
+  username: "hello",
+  password: "hello",
+  database: "hello",
+  pool_size: 15
+
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
@@ -61,4 +73,4 @@ config :logger, level: :info
 
 # Finally import the config/prod.secret.exs
 # which should be versioned separately.
-import_config "prod.secret.exs"
+# import_config "prod.secret.exs"
