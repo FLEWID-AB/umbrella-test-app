@@ -2,7 +2,7 @@
 
 Run `MIX_ENV=prod iex -S mix phx.server`
 
-## In Hello we have:
+### In Hello we have:
 
 ```
   config :hello, HelloWeb.Endpoint,
@@ -11,7 +11,7 @@ Run `MIX_ENV=prod iex -S mix phx.server`
   cache_static_manifest: "priv/static/cache_manifest.json"
 ```
 
-## In Hello 2
+### In Hello 2
 
 ```
   config :hello2, Hello2Web.Endpoint,
