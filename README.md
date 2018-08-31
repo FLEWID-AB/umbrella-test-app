@@ -2,7 +2,7 @@
 
 Run `MIX_ENV=prod iex -S mix phx.server`
 
-### In Hello we have:
+### In Hello:
 
 ```
   config :hello, HelloWeb.Endpoint,
